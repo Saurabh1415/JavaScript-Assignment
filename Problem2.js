@@ -1,11 +1,5 @@
 function Cube(n){
-  let c=1;
-  for(i=3;i>=1;i--)
-    {
-      c=c*n;
-    }
-  return c;
+  return n*n*n;
 }
-n=2;
-c=Cube(n);
-console.log(c);
+n=9;
+console.log(Cube(n));
